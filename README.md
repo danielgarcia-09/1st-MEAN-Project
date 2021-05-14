@@ -3,7 +3,6 @@
 
 [![N|Solid](https://res.cloudinary.com/practicaldev/image/fetch/s--oICVSnXV--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/aqm92f5mc5mrnw9qx3qt.jpg)](https://nodesource.com/products/nsolid)
 
-
 In this project I use specifically 4 tecnologies:
  - MongoDB
  - Express
