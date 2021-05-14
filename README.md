@@ -1,7 +1,8 @@
 # MEAN Stack App #1
 
 
-![N|Solid](https://res.cloudinary.com/practicaldev/image/fetch/s--oICVSnXV--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/aqm92f5mc5mrnw9qx3qt.jpg)
+![N|Solid](https://elevatecnologia.com/wp-content/uploads/2021/01/6-razones-para-conseguir-un-desarrollador-Mean-Stack-para-su.jpg)
+
 
 In this project I use specifically 4 tecnologies:
  - MongoDB
