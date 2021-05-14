@@ -1,27 +1,32 @@
-# ProyectoAngular
+# MEAN Stack App #1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
-## Development server
+[![N|Solid](https://res.cloudinary.com/practicaldev/image/fetch/s--oICVSnXV--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/aqm92f5mc5mrnw9qx3qt.jpg)](https://nodesource.com/products/nsolid)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+In this project I use specifically 4 tecnologies:
+ - MongoDB
+ - Express
+ - Angular 11
+ - NodeJs
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Benefits
 
-## Build
+- I had the opportunity to use Http methods such as POST, GET, PUT, DELETE and PATCH
+- Also first time dealing with MongoDB.
+- Entering more and more into Angular 11
+- Usage if tools such as **Postman** or **Insomnia** to test web APIs.
+- Connecting to MongoDB's database & creating collections/documents.
+- Create & Define models & routes for consuming a web API, defining the collections' structures & managing the CRUD operations with the database.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Current project status is: **in Progress...**.
 
-## Running unit tests
+# ~ Code Example
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Here in this sample of code we use a Http GET method to receive all projects saved in the database:
+```sh
+getProjects(): Observable<any>{
+    let headers = new HttpHeaders().set('Content-Type', 'application/json');
+    return this._http.get(this.url+'projects', {headers: headers});
+  }
+```
